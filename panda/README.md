@@ -6,7 +6,7 @@ based from "[Panda Syntax](https://github.com/PandaTheme/atom-panda-syntax)" and
 ## Preview
 --------------
 ### Panda
-<img src="assets/panda.png" width="670"
+<img src="assets/panda.png" width="670">
 
 ### Panda Nebula
 <img src="assets/panda-nebula.png" width="670">
