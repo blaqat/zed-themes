@@ -6,7 +6,7 @@ a port of the "[Ember Color Scheme](https://plugins.jetbrains.com/plugin/12401-e
 ## Preview
 --------------
 ### Ember
-<img src="assets/ember.png" width="627"
+<img src="assets/ember.png" width="627">
 
 ### Ember Glass
 <img src="assets/ember-glass.png" width="627">
