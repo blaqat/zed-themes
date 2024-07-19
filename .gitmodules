@@ -1,3 +1,15 @@
 [submodule "ember"]
 	path = ember
 	url = https://github.com/biaqat/ember-theme-zed.git
+[submodule "yue"]
+	path = yue
+	url = https://github.com/biaqat/yue-theme-zed.git
+[submodule "panda"]
+	path = panda
+	url = https://github.com/biaqat/panda-theme-zed.git
+[submodule "mariana"]
+	path = mariana
+	url = https://github.com/biaqat/mariana-theme-zed.git
+[submodule "tomorrow"]
+	path = tomorrow
+	url = https://github.com/biaqat/tomorrow-theme-zed.git
