@@ -1,10 +1,8 @@
 # Yue
---------------
 `variants: [New Moon, Full Moon, Sun, Moon]`
 based on the theme used in the [moonscript website](<https://moonscript.org/>)
 
 ## Preview
---------------
 ### Yue Moon
 <img src="assets/yue-moon.png" width="670">
 
@@ -19,6 +17,5 @@ based on the theme used in the [moonscript website](<https://moonscript.org/>)
 
 
 ## Installation
---------------
 1. Copy yue.json to ~/.config/zed/themes/
 2. Open Zed and navigate to Settings -> Theme -> Yue
