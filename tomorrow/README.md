@@ -1,8 +1,9 @@
 # Tomorrow
 --------------
 `variants: [at Midnight, Night Blue, Day, Night Out, Night]`
-## Preview
 based on chriskempson's ["Tomorrow Theme"](<https://github.com/chriskempson/tomorrow-theme?tab=readme-ov-file>)  as well as some port/forks: (VSCode's "[Tomorrow Night Blue](<https://arc.net/l/quote/nbuipqzx>)", [mdBook](<https://rust-lang.github.io/mdBook/for_developers/preprocessors.html>)'s "Coal", and [rusty.nvim](<https://github.com/namrabtw/rusty.nvim?tab=readme-ov-file>))
+
+## Preview
 
 --------------
 
