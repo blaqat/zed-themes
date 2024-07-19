@@ -1,5 +1,6 @@
 # Panda
 `variants: [Dark, Nebula, Light]`
+
 based from "[Panda Syntax](https://github.com/PandaTheme/atom-panda-syntax)" and "[Nebula](https://github.com/eating-coleslaw/vscode-nebula-theme)"
 
 ## Preview

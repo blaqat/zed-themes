@@ -1,5 +1,6 @@
 # Yue
 `variants: [New Moon, Full Moon, Sun, Moon]`
+
 based on the theme used in the [moonscript website](<https://moonscript.org/>)
 
 ## Preview
