@@ -6,7 +6,7 @@ based on the default Mariana and Breakers theme in Sublime Text & [Mariana Pro W
 ## Preview
 --------------
 ### Mariana
-<img src="assets/mariana.png" width="546"
+<img src="assets/mariana.png" width="546">
 
 ### Mariana Depths
 <img src="assets/mariana-depths-old.png" width="546">
