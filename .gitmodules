@@ -13,3 +13,6 @@
 [submodule "tomorrow"]
 	path = tomorrow
 	url = https://github.com/biaqat/tomorrow-theme-zed.git
+[submodule "polar"]
+	path = polar
+	url = https://github.com/biaqat/polar-theme-zed.git
