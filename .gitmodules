@@ -22,3 +22,6 @@
 [submodule "cyan"]
 	path = cyan
 	url = https://github.com/biaqat/cyan-light-theme-zed.git
+[submodule "cyan-light"]
+	path = cyan-light
+	url = https://github.com/biaqat/cyan-light-theme-zed.git
