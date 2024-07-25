@@ -19,3 +19,6 @@
 [submodule "aquarium"]
 	path = aquarium
 	url = https://github.com/biaqat/aquarium-theme-zed.git
+[submodule "cyan"]
+	path = cyan
+	url = https://github.com/biaqat/cyan-light-theme-zed.git
