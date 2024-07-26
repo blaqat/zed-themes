@@ -4,6 +4,7 @@
 [submodule "yue"]
 	path = yue
 	url = https://github.com/biaqat/yue-theme-zed.git
+	branch = v2
 [submodule "panda"]
 	path = panda
 	url = https://github.com/biaqat/panda-theme-zed.git
