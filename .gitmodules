@@ -26,3 +26,6 @@
 [submodule "cyan-light"]
 	path = cyan-light
 	url = https://github.com/biaqat/cyan-light-theme-zed.git
+[submodule "quiet-light"]
+	path = quiet-light
+	url = https://github.com/biaqat/quiet-light-theme-zed.git
