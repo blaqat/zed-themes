@@ -1,8 +1,9 @@
 .nvim.lua
-.DS_Store
-.zed/
-prime.js
-*copy/
-*template/
+*template*
 .trash
 *test*
+.zed
+.DS_Store
+playground
+*copy
+prime.*
