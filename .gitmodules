@@ -29,3 +29,6 @@
 [submodule "quiet-light"]
 	path = quiet-light
 	url = https://github.com/biaqat/quiet-light-theme-zed.git
+[submodule "gruber"]
+	path = gruber
+	url = https://github.com/biaqat/gruber-theme-zed.git
