@@ -32,3 +32,6 @@
 [submodule "gruber"]
 	path = gruber
 	url = https://github.com/biaqat/gruber-theme-zed.git
+[submodule "aylin"]
+	path = aylin
+	url = https://github.com/biaqat/aylin-theme-zed.git
