@@ -35,3 +35,6 @@
 [submodule "aylin"]
 	path = aylin
 	url = https://github.com/biaqat/aylin-theme-zed.git
+[submodule "lusch"]
+	path = lusch
+	url = https://github.com/biaqat/lusch-theme-zed.git
