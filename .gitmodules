@@ -38,3 +38,6 @@
 [submodule "lusch"]
 	path = lusch
 	url = https://github.com/biaqat/lusch-theme-zed.git
+[submodule "flat"]
+	path = flat
+	url = https://github.com/biaqat/flat-theme-zed.git
