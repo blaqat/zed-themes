@@ -41,3 +41,6 @@
 [submodule "flat"]
 	path = flat
 	url = https://github.com/biaqat/flat-theme-zed.git
+[submodule "v0"]
+	path = v0
+	url = https://github.com/biaqat/v0-theme-zed.git
