@@ -44,3 +44,6 @@
 [submodule "v0"]
 	path = v0
 	url = https://github.com/biaqat/v0-theme-zed.git
+[submodule "tomorrow-min"]
+	path = tomorrow-min
+	url = https://github.com/biaqat/tomorrow-min-theme-zed.git
