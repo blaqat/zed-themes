@@ -47,3 +47,6 @@
 [submodule "tomorrow-min"]
 	path = tomorrow-min
 	url = https://github.com/biaqat/tomorrow-min-theme-zed.git
+[submodule "tailwind"]
+	path = tailwind
+	url = https://github.com/biaqat/tailwind-theme-zed.git
