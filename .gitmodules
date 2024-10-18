@@ -50,3 +50,6 @@
 [submodule "tailwind"]
 	path = tailwind
 	url = https://github.com/biaqat/tailwind-theme-zed.git
+[submodule "nordic"]
+	path = nordic
+	url = https://github.com/biaqat/nordic-theme-zed.git
