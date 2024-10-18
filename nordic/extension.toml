@@ -1,0 +1,7 @@
+id = "nordic-theme"
+name = "Nordic Theme"
+version = "0.5.0"
+schema_version = 1
+authors = ["blaqat <blaqat.ag@gmail.com>"]
+description = "Nordic theme for Zed"
+repository = "https://github.com/biaqat/nordic-theme-zed"
