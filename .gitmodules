@@ -53,3 +53,6 @@
 [submodule "nordic"]
 	path = nordic
 	url = https://github.com/biaqat/nordic-theme-zed.git
+[submodule "rasmus"]
+	path = rasmus
+	url = https://github.com/biaqat/rasmus-theme-zed.git
