@@ -1,0 +1,522 @@
+# Reverse Generation Tool Version 3.0
+name = "Theme Name"
+theme = "theme"
+
+# Theme Colors
+[color]
+
+[button]
+active = "button.active|ui.button.primary..v+5"
+
+[code.error]
+bg = "code.error.bg|ui.code_popup|ui.popup|scheme.red"
+border = "code.error.border|scheme.red|ui.border.secondary"
+fg = "code.error.fg|scheme.red"
+
+[code.hint]
+bg = "code.hint.bg|code.info.bg|ui.code_popup|ui.popup|ui.bg"
+border = "code.hint.border|code.info.border|ui.border.secondary"
+fg = "code.hint.fg|editor.hint|editor.text..(v-20,a=80)"
+
+[code.info]
+bg = "code.info.bg|ui.code_popup|ui.popup|scheme.blue"
+border = "code.info.border|scheme.blue|ui.border.secondary"
+fg = "code.info.fg|scheme.blue"
+
+[code.success]
+bg = "code.success.bg|ui.code_popup|ui.popup|scheme.green"
+border = "code.success.border|scheme.green|ui.border.secondary"
+fg = "code.success.fg|scheme.green"
+
+[code.unreachable]
+bg = "code.unreachable.bg|ui.code_popup|ui.popup|scheme.red_dim"
+border = "code.unreachable.border|scheme.red_dim|ui.border.secondary"
+fg = "code.unreachable.fg|scheme.red_dim"
+
+[code.warning]
+bg = "code.warning.bg|ui.code_popup|ui.popup|scheme.yellow"
+border = "code.warning.border|scheme.yellow|ui.border.secondary"
+fg = "code.warning.fg|scheme.yellow"
+
+[editor]
+auto_complete = "editor.auto_complete|editor.hint|editor.text..(v-20,a=80)"
+bg = "editor.bg|ui.bg"
+gutter = "editor.gutter|editor.bg|ui.bg"
+invisible = "editor.invisible|editor.active.highlight|player.highlight"
+number = "editor.number|ui.text.active..50"
+text = "editor.text|ui.text.active"
+
+[editor.active]
+line = "editor.active.line|ui.bg..(value+10, alpha=80)"
+matches = "editor.active.matches"
+number = "editor.active.number|editor.number|ui.text.active..50"
+
+[editor.guides]
+wrap = "editor.guides.wrap"
+
+[editor.guides.indent]
+active = "editor.guides.indent.active|editor.guides.indent.inactive|editor.guides.indent"
+colors = "editor.guides.indent.colors|editor.guides.indents"
+inactive = "editor.guides.indent.inactive|editor.guides.indent.active|editor.guides.indent"
+
+[editor.search]
+captures = "editor.search.captures|editor.search.text|editor.search"
+line = "editor.search.line|editor.active.line|editor.search.text|editor.search"
+text = "editor.search.text|editor.search"
+
+[file.conflict]
+bg = "file.conflict.bg|ui.bg"
+border = "file.conflict.border|scheme.red_br"
+fg = "file.conflict.fg|scheme.red_br"
+
+[file.created]
+bg = "file.created.bg|ui.bg"
+border = "file.created.border|scheme.green"
+fg = "file.created.fg|scheme.green"
+
+[file.deleted]
+bg = "file.deleted.bg|ui.bg"
+border = "file.deleted.border|scheme.red"
+fg = "file.deleted.fg|scheme.red"
+
+[file.hidden]
+bg = "file.hidden.bg|ui.bg"
+border = "file.hidden.border|ui.border.primary"
+fg = "file.hidden.fg|ui.text.muted"
+
+[file.ignored]
+bg = "file.ignored.bg|ui.bg"
+border = "file.ignored.border|ui.border.primary"
+fg = "file.ignored.fg|ui.text.muted"
+
+[file.modified]
+bg = "file.modified.bg|ui.bg"
+border = "file.modified.border|scheme.yellow"
+fg = "file.modified.fg|scheme.yellow"
+
+[file.renamed]
+bg = "file.renamed.bg|ui.bg"
+border = "file.renamed.border|scheme.purple"
+fg = "file.renamed.fg|scheme.purple"
+
+[foreground]
+link = "foreground.link"
+
+[player]
+cursor = "player.cursor"
+highlight = "player.highlight"
+z = "player.z|player.cursor..FF"
+
+[scheme]
+black = "scheme.black|terminal.black"
+black_br = "scheme.black_br|terminal.bright_black|scheme.black..(v+15)"
+black_dim = "scheme.black_dim|terminal.dim_black|scheme.black..(v-15)"
+blue = "scheme.blue|terminal.blue"
+blue_br = "scheme.blue_br|terminal.bright_blue|scheme.blue..(v+15)"
+blue_dim = "scheme.blue_dim|terminal.dim_blue|scheme.blue..(v-15)"
+cyan = "scheme.cyan|terminal.cyan"
+cyan_br = "scheme.cyan_br|terminal.bright_cyan|scheme.cyan..(v+15)"
+cyan_dim = "scheme.cyan_dim|terminal.dim_cyan|scheme.cyan..(v-15)"
+green = "scheme.green|terminal.green"
+green_br = "scheme.green_br|terminal.bright_green|scheme.green..(v+15)"
+green_dim = "scheme.green_dim|terminal.dim_green|scheme.green..(v-15)"
+pink = "scheme.pink|terminal.magenta"
+pink_br = "scheme.pink_br|terminal.bright_magenta|scheme.pink..(v+15)"
+pink_dim = "scheme.pink_dim|terminal.dim_magenta|scheme.pink..(v-15)"
+red = "scheme.red|terminal.red"
+red_br = "scheme.red_br|terminal.bright_red|scheme.red..(v+15)"
+red_dim = "scheme.red_dim|terminal.dim_red|scheme.red..(v-15)"
+white = "scheme.white|terminal.white"
+white_br = "scheme.white_br|terminal.bright_white|scheme.white..(v+15)"
+white_dim = "scheme.white_dim|terminal.dim_white|scheme.white..(v-15)"
+yellow = "scheme.yellow|terminal.yellow"
+yellow_br = "scheme.yellow_br|terminal.bright_yellow|scheme.yellow..(v+15)"
+yellow_dim = "scheme.yellow_dim|terminal.dim_yellow|scheme.yellow..(v-15)"
+
+[syntax.boolean]
+bg = "syntax.boolean.bg"
+fg = "syntax.boolean.fg"
+style = "syntax.boolean.style"
+weight = "syntax.boolean.weight"
+
+[syntax.comment]
+bg = "syntax.comment.bg"
+fg = "syntax.comment.fg"
+style = "syntax.comment.style"
+weight = "syntax.comment.weight"
+
+[syntax.comment.doc]
+bg = "syntax.comment.doc.bg|syntax.doc.bg|syntax.comment.bg"
+fg = "syntax.comment.doc.fg|syntax.doc.fg|syntax.comment.fg"
+style = "syntax.comment.doc.style|syntax.doc.style|syntax.comment.style"
+weight = "syntax.comment.doc.weight|syntax.doc.weight|syntax.comment.weight"
+
+[syntax.constant]
+bg = "syntax.constant.bg"
+fg = "syntax.constant.fg"
+style = "syntax.constant.style"
+weight = "syntax.constant.weight"
+
+[syntax.constant.builtin]
+bg = "syntax.constant.builtin.bg|syntax.builtin.bg|syntax.constant.bg"
+color = "syntax.constant.builtin.color|syntax.builtin.color|syntax.constant.fg"
+style = "syntax.constant.builtin.style|syntax.builtin.style|syntax.constant.style"
+weight = "syntax.constant.builtin.weight|syntax.builtin.weight|syntax.constant.weight"
+
+[syntax.enum]
+bg = "syntax.enum.bg"
+color = "syntax.enum.color"
+style = "syntax.enum.style"
+weight = "syntax.enum.weight"
+
+[syntax.func]
+bg = "syntax.func.bg"
+fg = "syntax.func.fg"
+style = "syntax.func.style"
+weight = "syntax.func.weight"
+
+[syntax.func.builtin]
+bg = "syntax.func.builtin.bg|syntax.builtin.bg|syntax.function.bg"
+color = "syntax.func.builtin.color|syntax.builtin.color|syntax.function.fg"
+style = "syntax.func.builtin.style|syntax.builtin.style|syntax.function.style"
+weight = "syntax.func.builtin.weight|syntax.builtin.weight|syntax.function.weight"
+
+[syntax.func.decl]
+bg = "syntax.func.decl.bg|syntax.function.bg"
+color = "syntax.func.decl.color|syntax.function.fg"
+style = "syntax.func.decl.style|syntax.function.style"
+weight = "syntax.func.decl.weight|syntax.function.weight"
+
+[syntax.func.def]
+bg = "syntax.func.def.bg|syntax.function.bg"
+color = "syntax.func.def.color|syntax.function.fg"
+style = "syntax.func.def.style|syntax.function.style"
+weight = "syntax.func.def.weight|syntax.function.weight"
+
+[syntax.func.method]
+bg = "syntax.func.method.bg|syntax.func.bg"
+color = "syntax.func.method.color|syntax.func.fg"
+style = "syntax.func.method.style|syntax.func.style"
+weight = "syntax.func.method.weight|syntax.func.weight"
+
+[syntax.keyword]
+bg = "syntax.keyword.bg"
+fg = "syntax.keyword.fg"
+style = "syntax.keyword.style"
+weight = "syntax.keyword.weight"
+
+[syntax.keyword.conditional]
+bg = "syntax.keyword.conditional.bg|syntax.keyword.bg"
+fg = "syntax.keyword.conditional.fg|syntax.keyword.fg"
+style = "syntax.keyword.conditional.style|syntax.keyword.style"
+weight = "syntax.keyword.conditional.weight|syntax.keyword.weight"
+
+[syntax.keyword.conditional.ternary]
+bg = "syntax.keyword.conditional.ternary.bg|syntax.keyword.conditional.bg|syntax.keyword.bg"
+fg = "syntax.keyword.conditional.ternary.fg|syntax.keyword.conditional.fg|syntax.keyword.fg"
+style = "syntax.keyword.conditional.ternary.style|syntax.keyword.conditional.style|syntax.keyword.style"
+weight = "syntax.keyword.conditional.ternary.weight|syntax.keyword.conditional.weight|syntax.keyword.weight"
+
+[syntax.keyword.coroutine]
+bg = "syntax.keyword.coroutine.bg|syntax.keyword.bg"
+fg = "syntax.keyword.coroutine.fg|syntax.keyword.fg"
+style = "syntax.keyword.coroutine.style|syntax.keyword.style"
+weight = "syntax.keyword.coroutine.weight|syntax.keyword.weight"
+
+[syntax.keyword.debug]
+bg = "syntax.keyword.debug.bg|syntax.keyword.bg"
+fg = "syntax.keyword.debug.fg|syntax.keyword.fg"
+style = "syntax.keyword.debug.style|syntax.keyword.style"
+weight = "syntax.keyword.debug.weight|syntax.keyword.weight"
+
+[syntax.keyword.directive]
+bg = "syntax.keyword.directive.bg|syntax.keyword.bg"
+fg = "syntax.keyword.directive.fg|syntax.keyword.fg"
+style = "syntax.keyword.directive.style|syntax.keyword.style"
+weight = "syntax.keyword.directive.weight|syntax.keyword.weight"
+
+[syntax.keyword.directive.define]
+bg = "syntax.keyword.directive.define.bg|syntax.keyword.directive.bg|syntax.keyword.bg"
+fg = "syntax.keyword.directive.define.fg|syntax.keyword.directive.fg|syntax.keyword.fg"
+style = "syntax.keyword.directive.define.style|syntax.keyword.directive.style|syntax.keyword.style"
+weight = "syntax.keyword.directive.define.weight|syntax.keyword.directive.weight|syntax.keyword.weight"
+
+[syntax.keyword.exception]
+bg = "syntax.keyword.exception.bg|syntax.keyword.bg"
+fg = "syntax.keyword.exception.fg|syntax.keyword.fg"
+style = "syntax.keyword.exception.style|syntax.keyword.style"
+weight = "syntax.keyword.exception.weight|syntax.keyword.weight"
+
+[syntax.keyword.function]
+bg = "syntax.keyword.function.bg|syntax.keyword.bg"
+fg = "syntax.keyword.function.fg|syntax.keyword.fg"
+style = "syntax.keyword.function.style|syntax.keyword.style"
+weight = "syntax.keyword.function.weight|syntax.keyword.weight"
+
+[syntax.keyword.import]
+bg = "syntax.keyword.import.bg|syntax.keyword.bg"
+fg = "syntax.keyword.import.fg|syntax.keyword.fg"
+style = "syntax.keyword.import.style|syntax.keyword.style"
+weight = "syntax.keyword.import.weight|syntax.keyword.weight"
+
+[syntax.keyword.operator]
+bg = "syntax.keyword.operator.bg|syntax.keyword.bg"
+fg = "syntax.keyword.operator.fg|syntax.keyword.fg"
+style = "syntax.keyword.operator.style|syntax.keyword.style"
+weight = "syntax.keyword.operator.weight|syntax.keyword.weight"
+
+[syntax.keyword.repeat]
+bg = "syntax.keyword.repeat.bg|syntax.keyword.bg"
+fg = "syntax.keyword.repeat.fg|syntax.keyword.fg"
+style = "syntax.keyword.repeat.style|syntax.keyword.style"
+weight = "syntax.keyword.repeat.weight|syntax.keyword.weight"
+
+[syntax.keyword.return]
+bg = "syntax.keyword.return.bg|syntax.keyword.bg"
+fg = "syntax.keyword.return.fg|syntax.keyword.fg"
+style = "syntax.keyword.return.style|syntax.keyword.style"
+weight = "syntax.keyword.return.weight|syntax.keyword.weight"
+
+[syntax.keyword.type]
+bg = "syntax.keyword.type.bg|syntax.keyword.bg"
+fg = "syntax.keyword.type.fg|syntax.keyword.fg"
+style = "syntax.keyword.type.style|syntax.keyword.style"
+weight = "syntax.keyword.type.weight|syntax.keyword.weight"
+
+[syntax.namespace]
+bg = "syntax.namespace.bg|syntax.var.builtin.bg|syntax.builtin.bg|syntax.var.bg"
+color = "syntax.namespace.color|syntax.var.builtin.color|syntax.builtin.color|syntax.var.fg"
+style = "syntax.namespace.style|syntax.var.builtin.style|syntax.builtin.style|syntax.var.style"
+weight = "syntax.namespace.weight|syntax.var.builtin.weight|syntax.builtin.weight|syntax.var.weight"
+
+[syntax.number]
+bg = "syntax.number.bg"
+fg = "syntax.number.fg"
+style = "syntax.number.style"
+weight = "syntax.number.weight"
+
+[syntax.op]
+bg = "syntax.op.bg"
+fg = "syntax.op.fg"
+style = "syntax.op.style"
+weight = "syntax.op.weight"
+
+[syntax.op.bitwise]
+bg = "syntax.op.bitwise.bg|syntax.op.bg"
+color = "syntax.op.bitwise.color|syntax.op.fg"
+style = "syntax.op.bitwise.style|syntax.op.style"
+weight = "syntax.op.bitwise.weight|syntax.op.weight"
+
+[syntax.op.compare]
+bg = "syntax.op.compare.bg|syntax.op.bg"
+color = "syntax.op.compare.color|syntax.op.fg"
+style = "syntax.op.compare.style|syntax.op.style"
+weight = "syntax.op.compare.weight|syntax.op.weight"
+
+[syntax.op.logical]
+bg = "syntax.op.logical.bg|syntax.op.bg"
+color = "syntax.op.logical.color|syntax.op.fg"
+style = "syntax.op.logical.style|syntax.op.style"
+weight = "syntax.op.logical.weight|syntax.op.weight"
+
+[syntax.op.math]
+bg = "syntax.op.math.bg|syntax.op.bg"
+color = "syntax.op.math.color|syntax.op.fg"
+style = "syntax.op.math.style|syntax.op.style"
+weight = "syntax.op.math.weight|syntax.op.weight"
+
+[syntax.op.setter]
+bg = "syntax.op.setter.bg|syntax.op.bg"
+color = "syntax.op.setter.color|syntax.op.fg"
+style = "syntax.op.setter.style|syntax.op.style"
+weight = "syntax.op.setter.weight|syntax.op.weight"
+
+[syntax.param]
+bg = "syntax.param.bg|syntax.var.bg"
+color = "syntax.param.color|syntax.var.fg"
+style = "syntax.param.style|syntax.var.style"
+weight = "syntax.param.weight|syntax.var.weight"
+
+[syntax.property]
+bg = "syntax.property.bg|syntax.var.bg"
+color = "syntax.property.color|syntax.var.fg"
+fg = "syntax.property.fg"
+style = "syntax.property.style"
+weight = "syntax.property.weight|syntax.var.weight"
+
+[syntax.punc]
+bg = "syntax.punc.bg"
+fg = "syntax.punc.fg"
+style = "syntax.punc.style"
+weight = "syntax.punc.weight"
+
+[syntax.punc.bracket]
+bg = "syntax.punc.bracket.bg|syntax.punc.bg"
+color = "syntax.punc.bracket.color|syntax.punc.fg"
+style = "syntax.punc.bracket.style|syntax.punc.style"
+weight = "syntax.punc.bracket.weight|syntax.punc.weight"
+
+[syntax.punc.delimiter]
+bg = "syntax.punc.delimiter.bg|syntax.punc.bg"
+color = "syntax.punc.delimiter.color|syntax.punc.fg"
+style = "syntax.punc.delimiter.style|syntax.punc.style"
+weight = "syntax.punc.delimiter.weight|syntax.punc.weight"
+
+[syntax.punc.symbol]
+bg = "syntax.punc.symbol.bg|syntax.punc.bg"
+color = "syntax.punc.symbol.color|syntax.punc.fg"
+style = "syntax.punc.symbol.style|syntax.punc.style"
+weight = "syntax.punc.symbol.weight|syntax.punc.weight"
+
+[syntax.punc.tag]
+bg = "syntax.punc.tag.bg|syntax.punc.bracket.bg|syntax.punc.bg"
+color = "syntax.punc.tag.color|syntax.punc.bracket.color|syntax.punc.fg"
+style = "syntax.punc.tag.style|syntax.punc.bracket.style|syntax.punc.style"
+weight = "syntax.punc.tag.weight|syntax.punc.bracket.weight|syntax.punc.weight"
+
+[syntax.string]
+bg = "syntax.string.bg"
+fg = "syntax.string.fg"
+style = "syntax.string.style"
+weight = "syntax.string.weight"
+
+[syntax.string.escape]
+bg = "syntax.string.escape.bg|syntax.string.bg"
+color = "syntax.string.escape.color|syntax.string.fg"
+style = "syntax.string.escape.style|syntax.string.style"
+weight = "syntax.string.escape.weight|syntax.string.weight"
+
+[syntax.string.inter]
+bg = "syntax.string.inter.bg|syntax.punc.bg"
+color = "syntax.string.inter.color|syntax.punc.fg"
+style = "syntax.string.inter.style|syntax.punc.style"
+weight = "syntax.string.inter.weight|syntax.punc.weight"
+
+[syntax.string.regex]
+bg = "syntax.string.regex.bg|syntax.string.bg"
+color = "syntax.string.regex.color|syntax.string.fg"
+style = "syntax.string.regex.style|syntax.string.style"
+weight = "syntax.string.regex.weight|syntax.string.weight"
+
+[syntax.string.special]
+bg = "syntax.string.special.bg|syntax.string.bg"
+color = "syntax.string.special.color|syntax.string.fg"
+style = "syntax.string.special.style|syntax.string.style"
+weight = "syntax.string.special.weight|syntax.string.weight"
+
+[syntax.type]
+bg = "syntax.type.bg"
+fg = "syntax.type.fg"
+style = "syntax.type.style"
+weight = "syntax.type.weight"
+
+[syntax.type.builtin]
+bg = "syntax.type.builtin.bg|syntax.builtin.bg|syntax.type.bg"
+color = "syntax.type.builtin.color|syntax.builtin.color|syntax.type.fg"
+style = "syntax.type.builtin.style|syntax.builtin.style|syntax.type.style"
+weight = "syntax.type.builtin.weight|syntax.builtin.weight|syntax.type.weight"
+
+[syntax.type.primitive]
+bg = "syntax.type.primitive.bg|syntax.type.builtin.bg|syntax.builtin.bg|syntax.type.bg"
+color = "syntax.type.primitive.color|syntax.type.builtin.color|syntax.builtin.color|syntax.type.fg"
+style = "syntax.type.primitive.style|syntax.type.builtin.style|syntax.builtin.style|syntax.type.style"
+weight = "syntax.type.primitive.weight|syntax.type.builtin.weight|syntax.builtin.weight|syntax.type.weight"
+
+[syntax.var]
+bg = "syntax.var.bg"
+fg = "syntax.var.fg"
+style = "syntax.var.style"
+weight = "syntax.var.weight"
+
+[syntax.var.builtin]
+bg = "syntax.var.builtin.bg|syntax.builtin.bg|syntax.var.bg"
+color = "syntax.var.builtin.color|syntax.type.fg"
+style = "syntax.var.builtin.style|syntax.builtin.style|syntax.var.style"
+weight = "syntax.var.builtin.weight|syntax.builtin.weight|syntax.var.weight"
+
+[syntax.z.html_attribute]
+bg = "syntax.z.html_attribute.bg"
+fg = "syntax.z.html_attribute.fg"
+style = "syntax.z.html_attribute.style"
+weight = "syntax.z.html_attribute.weight"
+
+[syntax.z.html_tag]
+bg = "syntax.z.html_tag.bg"
+fg = "syntax.z.html_tag.fg"
+style = "syntax.z.html_tag.style"
+weight = "syntax.z.html_tag.weight"
+
+[syntax.z.json_key]
+bg = "syntax.z.json_key.bg|syntax.property.bg"
+color = "syntax.z.json_key.color|syntax.property.fg"
+style = "syntax.z.json_key.style|syntax.property.style"
+weight = "syntax.z.json_key.weight|syntax.property.weight"
+
+[syntax.z.rs_lifetime]
+bg = "syntax.z.rs_lifetime.bg"
+color = "syntax.z.rs_lifetime.color"
+style = "syntax.z.rs_lifetime.style"
+weight = "syntax.z.rs_lifetime.weight"
+
+[ui]
+appearance = "ui.appearance"
+bg = "ui.bg"
+file_drop = "ui.file_drop|ui.bg..(value+10, alpha=80)"
+link = "ui.link|scheme.blue"
+panel = "ui.panel|ui.bg"
+popup = "ui.popup|ui.bg"
+terminal = "ui.terminal|terminal.bg|ui.bg"
+
+[ui.bars]
+bottom = "ui.bars.bottom|ui.bg"
+tool = "ui.bars.tool|ui.bg"
+top = "ui.bars.top|ui.bars.title.active|ui.bg"
+
+[ui.bars.tab]
+active = "ui.bars.tab.active|ui.bars.tab.bg|ui.bg"
+bg = "ui.bars.tab.bg|ui.bg"
+inactive = "ui.bars.tab.inactive|ui.bars.tab.bg|ui.bg"
+
+[ui.bars.title]
+inactive = "ui.bars.title.inactive|ui.bars.top|ui.bg"
+
+[ui.border]
+primary = "ui.border.primary"
+secondary = "ui.border.secondary|ui.border.primary"
+
+[ui.button]
+disabled = "ui.button.disabled|ui.button.primary|ui.bg"
+pressed = "ui.button.pressed|ui.button.primary..v+5"
+primary = "ui.button.primary|ui.bg"
+
+[ui.element]
+active = "ui.element.active|ui.bg..v+5"
+bg = "ui.element.bg"
+disabled = "ui.element.disabled"
+hover = "ui.element.hover|ui.bg..v-5"
+pressed = "ui.element.pressed|ui.bg..v+5"
+
+[ui.header]
+hover = "ui.header.hover|ui.header.primary..v+5|ui.header..v+5|ui.button.primary..v-5"
+primary = "ui.header.primary|ui.header|ui.panel|ui.bg"
+
+[ui.scrollbar]
+border = "ui.scrollbar.border|ui.border.primary"
+highlight = "ui.scrollbar.highlight|ui.scrollbar.thumb"
+thumb = "ui.scrollbar.thumb|ui.scrollbar.track|ui.bg..(v+10)"
+track = "ui.scrollbar.track"
+
+[ui.text]
+accent = "ui.text.accent|color.primary"
+active = "ui.text.active"
+inactive = "ui.text.inactive"
+muted = "ui.text.muted"
+placeholder = "ui.text.placeholder|ui.text.muted"
+
+# Overrides
+[overrides]
+
+# Deletions
+[deletions]
+keys = [
+]
