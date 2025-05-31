@@ -1,0 +1,6 @@
+.nvim.lua
+.zed
+.DS_Store
+*.toml
+*copy
+templates/
