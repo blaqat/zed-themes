@@ -56,3 +56,6 @@
 [submodule "rasmus"]
 	path = rasmus
 	url = https://github.com/biaqat/rasmus-theme-zed.git
+[submodule "bratppuccin"]
+	path = bratppuccin
+	url = https://github.com/bIaqat/bratppuccin-theme-zed
